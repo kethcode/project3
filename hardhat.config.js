@@ -20,7 +20,7 @@ module.exports = {
   },
   networks: {
     "optimism-goerli": {
-      url: process.env.ALCHEMY_OP_GOERLI_KEY_HTTP,
+      url: process.env.ALCHEMY_OP_GOERLI_KEY_WSS,
       accounts: [process.env.ALCHEMY_OP_GOERLI_PRIVATE_KEY],
     },
   },
